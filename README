@@ -1,0 +1,50 @@
+Document-Presentation
+
+Document::Presentation is an object representation of the elements that
+make up a slide-based presentation.  The idea is that you create a
+Document::Presentation object and repeatedly call add_slide with arguments.
+
+The Theme allows you to use the same slides, but change up the look & feel.
+
+It is expected that this won't be the method you use to actually _write_
+presentations, as that's somewhat cumbersome.  This can, instead, be a target
+for other formats (parse them and then them into Document::Presentations).
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Document::Presentation
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Document-Presentation
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Document-Presentation
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Document-Presentation
+
+    Search CPAN
+        http://search.cpan.org/dist/Document-Presentation
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 Cory G Watson
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
